@@ -1,0 +1,11 @@
+version: "3"
+services:
+  eth-gas-tracker-db:
+    image: postgres:14.1
+    ports:
+      - 5432:5432
+    container_name: eth-gas-tracker-db
+    environment:
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: gas_tracker
+      POSTGRES_USER: postgres

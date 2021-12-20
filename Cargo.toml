@@ -10,3 +10,4 @@ authors = ["Giorgi Abuladze (https://abula.dev)"]
 reqwest = { version =  "0.11.7", features = ["json"] }
 serde = { version = "1.0.131", features = ["derive"] }
 tokio = { version = "1", features = ["full"] }
+sqlx = { version = "0.5", features = ["runtime-tokio-rustls", "postgres"] }

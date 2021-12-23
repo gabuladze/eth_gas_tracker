@@ -19,7 +19,7 @@ pub struct Log {
 pub struct Transaction {
     pub block_hash: String,
     pub block_number: String,
-    pub contract_address: String,
+    pub contract_address: Option<String>,
     pub cumulative_gas_used: String,
     pub effective_gas_price: String,
     pub from: String,
